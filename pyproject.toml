@@ -1,0 +1,17 @@
+[project]
+name = "pdfs-to-excel"
+version = "0.1.0"
+description = "Extract structured information from PDFs into Excel using LLMs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai",
+    "pydantic",
+    "pymupdf",
+    "pytesseract",
+    "Pillow",
+    "pyyaml",
+    "openpyxl",
+    "pandas",
+    "tqdm",
+]

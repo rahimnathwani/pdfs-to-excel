@@ -1,0 +1,20 @@
+model: gpt-4o-mini
+system_prompt: "You are a lawyer. Answer based only on the provided document."
+
+fields:
+  - name: client_name
+    type: string
+    description: "The full name of the buyer"
+
+  - name: sale_date
+    type: string
+    description: "Date of sale in YYYY-MM-DD format"
+
+  - name: property_type
+    type: string
+    description: "Type of property"
+    choices: ["Villa", "House", "Apartment"]
+
+  - name: built_up_area
+    type: integer
+    description: "Size in square meters. Return 0 if unknown."
