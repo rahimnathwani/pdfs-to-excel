@@ -7,7 +7,10 @@ from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 from tqdm import tqdm
+
+load_dotenv()
 
 from extract import extract_from_text
 from pdf_reader import read_pdfs
