@@ -7,12 +7,13 @@ Extract structured information from a folder of PDFs into an Excel spreadsheet u
 - Python 3.12+
 - [uv](https://docs.astral.sh/uv/) package manager
 - [Tesseract](https://github.com/tesseract-ocr/tesseract) installed and on PATH (for OCR fallback)
-- OpenAI API key in a `.env` file or set as `OPENAI_API_KEY` environment variable
+- OpenAI API key (see setup below)
 
 ## Installation
 
 ```bash
 uv sync
+cp .env.example .env  # then edit .env with your API key
 ```
 
 ## Usage
