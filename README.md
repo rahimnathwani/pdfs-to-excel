@@ -5,6 +5,7 @@ Extract structured information from a folder of PDFs into an Excel spreadsheet u
 ## Prerequisites
 
 - Python 3.12+
+- [uv](https://docs.astral.sh/uv/) package manager
 - [Tesseract](https://github.com/tesseract-ocr/tesseract) installed and on PATH (for OCR fallback)
 - OpenAI API key set as `OPENAI_API_KEY` environment variable
 
@@ -41,7 +42,7 @@ Results are saved incrementally to a `.jsonl` file after each PDF, and converted
 ## YAML Fields Format
 
 ```yaml
-model: gpt-4o-mini
+model: gpt-5-mini
 system_prompt: "You are a lawyer. Answer based only on the provided document."
 
 fields:

@@ -22,7 +22,7 @@ Flat module structure — five files at the project root:
 The user defines extraction fields in a YAML file:
 
 ```yaml
-model: gpt-4o-mini
+model: gpt-5-mini
 system_prompt: "You are a lawyer. Answer based only on the provided document."
 
 fields:

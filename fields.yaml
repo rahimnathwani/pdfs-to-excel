@@ -1,4 +1,4 @@
-model: gpt-4o-mini
+model: gpt-5-mini
 system_prompt: "You are a lawyer. Answer based only on the provided document."
 
 fields:
