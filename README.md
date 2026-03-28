@@ -12,6 +12,8 @@ Extract structured information from a folder of PDFs into an Excel spreadsheet u
 ## Installation
 
 ```bash
+git clone git@github.com:rahimnathwani/pdfs-to-excel.git
+cd pdfs-to-excel
 uv sync
 cp .env.example .env  # then edit .env with your API key
 ```
